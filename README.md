@@ -2,17 +2,17 @@
 
 ## Overview
 
-This project implements the logic for the Akari puzzle. The program processes
+This project implements the logic for the `Akari puzzle`. The program processes
 a grid to either assist in solving the puzzle (by marking illuminated areas)
 or to validate a specific configuration against the game rules.
 
 ## Project Structure
 
-* akari.c: Main entry point. Handles input/output and controls the execution flow.
-* akari\_functions.c: Contains the core logic functions for light propagation
+* `akari.c`: Main entry point. Handles input/output and controls the execution flow.
+* `akari\_functions.c`: Contains the core logic functions for light propagation
   (gridL) and numeric constraint checking (grid0 - grid3).
-* akari\_headers.h: Header file defining function prototypes and constants.
-* Makefile: Automation script for compilation and cleanup.
+* `akari\_headers.h`: Header file defining function prototypes and constants.
+* `Makefile`: Automation script for compilation and cleanup.
 
 ## Functionality
 
