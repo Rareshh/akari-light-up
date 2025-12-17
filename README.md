@@ -9,9 +9,9 @@ or to validate a specific configuration against the game rules.
 ## Project Structure
 
 * `akari.c`: Main entry point. Handles input/output and controls the execution flow.
-* `akari\_functions.c`: Contains the core logic functions for light propagation
+* `akari_functions.c`: Contains the core logic functions for light propagation
   (gridL) and numeric constraint checking (grid0 - grid3).
-* `akari\_headers.h`: Header file defining function prototypes and constants.
+* `akari_headers.h`: Header file defining function prototypes and constants.
 * `Makefile`: Automation script for compilation and cleanup.
 
 ## Functionality
