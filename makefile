@@ -14,4 +14,4 @@ akari_obj.o: akari_functions.c akari_headers.h
 clean:
 	rm -f $(TARGETS) *.o
 
-.PHONY: pack clean
+.PHONY: clean
